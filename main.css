@@ -1,0 +1,100 @@
+body {
+    background-color:darkslategray;
+    max-width: 100%;
+    margin: 0;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+a {
+    color: black;
+    font-size: 19px;
+    
+}
+
+p {
+    color: black
+}
+
+
+#mainBar li {
+    display:inline-block;
+    width: 100px;
+    margin-left: 3px;
+    position: relative;
+    top: 3em;
+    left: 45em;
+   
+}
+
+#imgtyler {
+    height: auto;
+    height: 50%;
+    position: relative;
+    left: 4em;
+    top: 3em;
+    size: 1px;
+}
+
+#imgstatic {
+    position: relative;
+    left: 0em;
+    top: 0em;
+    size: 0px;
+}
+
+#imgcreature{
+
+    position: relative;
+    left: 0em;
+    top: 0em;
+    size: 0px;
+
+}
+    
+#name {
+    position: relative;
+    top: 10em;
+    left: 10em;    
+}
+
+#myName {
+    color: black;
+    font-size: 4em;
+}
+#myJob {
+    color: black;
+    font-size: 1.1em;
+}
+
+
+#aboutme {
+    position: relative;
+    top: 2em;
+    
+}
+
+#aboutme h2 {
+    color: black;
+}
+
+.separator{
+    background-color: darkslategray;
+    padding-bottom: 33em;
+    padding-right: 33em;
+
+}
+
+#projects {
+    position: relative;
+    top: 2em;
+    
+    
+    
+}
+
+#projects h2 {
+    color: black;
+}
