@@ -80,6 +80,16 @@ p {
     color: black;
 }
 
+#projects {
+position: relative;
+bottom: 17em;
+}
+#projects h2 {
+    color: black;
+    position: relative;
+    top: -2em;
+}
+
 .separator{
     background-color: darkslategray;
     padding-bottom: 33em;
@@ -87,14 +97,4 @@ p {
 
 }
 
-#projects {
-    position: relative;
-    top: 2em;
-    
-    
-    
-}
 
-#projects h2 {
-    color: black;
-}
