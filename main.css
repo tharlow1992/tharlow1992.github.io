@@ -40,17 +40,14 @@ p {
 
 #imgstatic {
     position: relative;
-    left: 0em;
-    top: 0em;
-    size: 0px;
+    padding-top: 3em;
 }
 
 #imgcreature{
 
     position: relative;
-    left: 0em;
-    top: 0em;
-    size: 0px;
+    padding-top: 2.5em;
+    
 
 }
     
@@ -72,7 +69,8 @@ p {
 
 #aboutme {
     position: relative;
-    top: 2em;
+    padding-bottom: -4em;
+    
     
 }
 
@@ -82,13 +80,37 @@ p {
 
 #projects {
 position: relative;
-bottom: 17em;
+padding-top: em;
 }
 #projects h2 {
     color: black;
     position: relative;
-    top: -2em;
+    
+    bottom: 0em;
 }
+
+
+#contactme {
+    display: block;
+    color: black;
+    position: relative;
+    
+    
+}
+
+#contactme h2 {
+    color: black;
+    position: relative;
+    top: -2em;
+    right: -0.9em;
+    
+}
+
+#contactmebutton {
+    background-color: black;
+    color: white;
+}
+
 
 .separator{
     background-color: darkslategray;
@@ -97,4 +119,12 @@ bottom: 17em;
 
 }
 
+::placeholder {
+    color: black;
+}
 
+.containercontact {
+   display: inline-block;
+   padding-bottom: 35em;
+}
+  
